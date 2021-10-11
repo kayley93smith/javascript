@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="styles.css">
+ <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+ <title>Document</title>
+</head>
+<body>
+ <div id= "vue-app-one">
+  <h2>{{title}}</h2>
+  <h3>{{greet}}</h3>
+  <greeting></greeting>
+  <p>hi</p>
+  <input type="text" ref = "input"name="" id="">
+  <button v-on:click="readRefs">Submit</button>
+  <p>Your favourite food: {{output}}</p>
+  <div ref = "new">Hello</div>
+
+  
+
+
+
+
+
+  
+ </div>
+
+ <div id= "vue-app-two">
+  <h2>{{title}}</h2>
+  <h3>{{greet}}</h3>
+  <button v-on:click = "changeTitle">New title for vue one</button>
+  <greeting></greeting>
+  
+   <input type="text">
+  
+
+  
+
+
+  
+ </div>
+ 
+
+ <script src="app.js"></script>
+</body>
+</html>
